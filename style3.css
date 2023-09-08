@@ -1,0 +1,83 @@
+body{
+    background-color: whitesmoke;
+    margin: 0%;
+    align-items: center;
+    text-align: center;
+    /* text-align: center; */
+}
+nav{
+    background-color: rgb(14, 101, 94);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin: 0%;
+    /* text-decoration: none; */
+}
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+  
+nav .current-page {
+    color: rgb(14, 101, 94); /* Change the link color for the current page */
+    font-weight: bold; /* Apply bold font to the current page link */
+}
+nav :hover{
+    color: black;
+}
+
+nav ul{
+    
+    margin: 0%;
+    padding: 0;  
+    margin:auto;
+    top: 0;
+    padding-top:5px; 
+    text-align: center;
+    display: inline;
+    font-size: x-large;
+        
+}
+
+img{
+    align-items: center;
+    height: 100px;
+    border-radius: 100%;
+    align-self: auto;
+}
+#imp{
+    height: 450px;
+    width:auto
+}
+nav li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    color: white;
+    text-align: center;
+    /* text-decoration: none; */
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+
+
+footer{
+    color: whitesmoke;
+    text-align: center;
+    background-color:rgb(14, 101, 94);
+    margin-bottom: -20%;
+    margin: 0;
+    margin-top: 0%;
+    padding:1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+

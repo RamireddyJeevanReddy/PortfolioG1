@@ -1,0 +1,86 @@
+body{
+    background-color: whitesmoke;
+    margin: 0%;
+    /* text-align: center; */
+}
+nav{
+    background-color: rgb(14, 101, 94);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin: 0%;
+    /* text-decoration: none; */
+}
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+  
+nav .current-page {
+    color: rgb(14, 101, 94); /* Change the link color for the current page */
+    font-weight: bold; /* Apply bold font to the current page link */
+}
+nav :hover{
+    color: black;
+}
+
+nav ul{
+    
+    margin: 0%;
+    padding: 0;  
+    margin:auto;
+    top: 0;
+    padding-top:5px; 
+    text-align: center;
+    display: inline;
+    font-size: x-large;
+        
+}
+nav li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    color: white;
+    text-align: center;
+    /* text-decoration: none; */
+}
+img{
+    height: 100px;
+    border-radius: 100%;
+}
+
+#cont1{
+    padding-top: 2%;
+    font-size: 120%;
+    color: rgb(14, 101, 94);
+    text-align: center;
+}
+#cont2{
+    text-align: center;
+    padding-top: 5%;
+}
+#box{
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    margin: 50px;
+
+}
+#img1{
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+}
+#img2{
+    width: 125px;
+    height: 100px;
+    border-radius: 50%;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color:rgb(14, 101, 94) ;
+}
+
+
+
+
