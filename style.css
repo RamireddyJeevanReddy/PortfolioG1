@@ -1,38 +1,41 @@
-body{
+/* Styles for laptops and larger screens */
+body {
     background-color: rgb(14, 101, 94);
     margin: 0;
 }
-nav{
+
+nav {
     background-color: whitesmoke;
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
     text-decoration: none;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: black;
 }
-  
+
 nav .current-page {
-    color: rgb(14, 101, 94); /* Change the link color for the current page */
-    font-weight: bold; /* Apply bold font to the current page link */
+    color: rgb(14, 101, 94);
+    font-weight: bold;
 }
-nav :hover{
+
+nav a:hover {
     color: rgb(14, 101, 94);
 }
 
-nav ul{
-    
-    padding: 0;  
+nav ul {
+    padding: 0;
     top: 0;
-    padding-top:5px; 
+    padding-top: 5px;
     text-align: center;
     display: inline;
     font-size: x-large;
-        
 }
-nav li{
+
+nav li {
     display: inline;
     padding: 0 20px 0 20px;
     color: black;
@@ -41,31 +44,97 @@ nav li{
     margin: 0%;
     padding: auto;
 }
-img{
+
+img {
     height: 100px;
-    padding:0;
+    padding: 0;
     margin: 0;
-    
     border-radius: 200%;
 }
-div{
+
+div {
     text-align: center;
     background-color: rgb(14, 101, 94);
     color: white;
     margin-bottom: -200%;
-    
     padding: 10px;
     font-size: x-large;
     padding-top: 7%;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
-div #container1{
-    padding-top: 15%;
 
-}   
-footer{
+div #container1 {
+    padding-top: 15%;
+}
+
+footer {
     color: #fff;
     text-align: center;
     padding: 10px;
     background-color: blueviolet;
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e604, 0 0 40px #00e604, 0 0 50px #00e604;
+    }
+    50% {
+        text-shadow: 0 0 20px #fff, 0 0 30px #00e604, 0 0 40px #00e604, 0 0 50px #00e604, 0 0 60px #00e604;
+    }
+    100% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e604, 0 0 40px #00e604, 0 0 50px #00e604;
+    }
+}
+h1{
+    animation: glow 1s ease-in-out infinite;
+    color: black;
+}
+
+
+/* Styles for tablets */
+@media (max-width: 768px) {
+    nav {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    nav ul {
+        font-size: large;
+    }
+
+    nav li {
+        padding: 0 10px;
+    }
+
+    img {
+        height: 80px;
+    }
+
+    div #container1 {
+        padding-top: 10%;
+    }
+}
+
+/* Styles for phones */
+@media (max-width: 480px) {
+    nav {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    nav ul {
+        font-size: medium;
+    }
+
+    nav li {
+        padding: 0 5px;
+    }
+
+    img {
+        height: 60px;
+    }
+
+    div #container1 {
+        padding-top: 5%;
+    }
 }
