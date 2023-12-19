@@ -80,6 +80,49 @@ footer{
     text-align: center;
     background-color:rgb(14, 101, 94) ;
 }
+#bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(14, 101, 94);
+    margin: 0;
+}
+
+#bar li {
+    margin: 0;
+}
+
+#bar li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+#bar li a:hover {
+    background-color:rgb(14, 101, 94);
+}
+
+#main img {
+    width: 50px; /* Adjust the size of your logo */
+}
+
+/* Add animation to list items */
+#bar li {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 
 
